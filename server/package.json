@@ -1,0 +1,30 @@
+{
+  "name": "calculate",
+  "version": "0.0.1",
+  "description": "Simple server-side caclulator project",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "tape ./**/*.spec.js | tap-summary"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jesselee34/calculator.git"
+  },
+  "keywords": [
+    "calculator"
+  ],
+  "author": "Jesse Lee Schmucker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jesselee34/calculator/issues"
+  },
+  "homepage": "https://github.com/jesselee34/calculator#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "tap-summary": "^3.0.2",
+    "tape": "^4.6.3"
+  }
+}
